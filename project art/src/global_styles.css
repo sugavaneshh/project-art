@@ -1,0 +1,42 @@
+/* Global styles */
+:root {
+  --primary-color: #a8d8ea;
+  --secondary-color: #f3f3f3;
+  --text-color: #333;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.navbar {
+  background-color: var(--primary-color) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.btn-primary:hover {
+  background-color: #8ac8da;
+  border-color: #8ac8da;
+}
+
+.jumbotron {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  transition: transform 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
